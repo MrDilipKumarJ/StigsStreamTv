@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card sizes - bigger for TV -->
+    <dimen name="card_width">220dp</dimen>
+    <dimen name="card_height">330dp</dimen>
+    <dimen name="card_radius">8dp</dimen>
+
+    <!-- Layout margins for TV (10-foot UI) -->
+    <dimen name="browse_margin_start">48dp</dimen>
+    <dimen name="browse_margin_top">24dp</dimen>
+    <dimen name="content_padding">24dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="title_size">36sp</dimen>
+    <dimen name="header_size">22sp</dimen>
+    <dimen name="body_size">16sp</dimen>
+    <dimen name="caption_size">12sp</dimen>
+
+    <!-- Detail screen -->
+    <dimen name="detail_poster_width">180dp</dimen>
+    <dimen name="detail_poster_height">270dp</dimen>
+</resources>

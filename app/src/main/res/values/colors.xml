@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand -->
+    <color name="brand_red">#E50914</color>
+    <color name="brand_red_dark">#B20710</color>
+    <color name="brand_red_light">#FF3D3D</color>
+
+    <!-- Backgrounds -->
+    <color name="app_background">#0D0D0D</color>
+    <color name="splash_background">#000000</color>
+    <color name="card_background">#1A1A1A</color>
+    <color name="detail_background">#141414</color>
+    <color name="header_background">#0D0D0D</color>
+
+    <!-- Text -->
+    <color name="white">#FFFFFF</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#AAAAAA</color>
+    <color name="text_hint">#666666</color>
+
+    <!-- UI Elements -->
+    <color name="focus_highlight">#E50914</color>
+    <color name="separator">#2A2A2A</color>
+    <color name="overlay_dark">#99000000</color>
+</resources>

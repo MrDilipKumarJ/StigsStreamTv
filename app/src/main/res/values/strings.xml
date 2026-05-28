@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stigstream</string>
+    <string name="app_tagline">Watch Free Movies &amp; TV Shows</string>
+
+    <!-- Home -->
+    <string name="title_featured">Featured</string>
+    <string name="title_trending">Trending Now</string>
+    <string name="title_new_releases">New Releases</string>
+    <string name="title_tv_shows">TV Shows</string>
+
+    <!-- Detail -->
+    <string name="action_watch">Watch Now</string>
+    <string name="action_trailer">Trailer</string>
+    <string name="action_watchlist">Watchlist</string>
+    <string name="related_title">More Like This</string>
+
+    <!-- Player -->
+    <string name="player_loading">Loading stream…</string>
+    <string name="player_error">Unable to play this content. Please try again.</string>
+
+    <!-- Search -->
+    <string name="search_hint">Search movies and shows…</string>
+    <string name="search_no_results">No results found</string>
+
+    <!-- Error -->
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+</resources>

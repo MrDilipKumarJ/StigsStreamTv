@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Main app theme — extends Leanback theme -->
+    <style name="Theme.StigstreamTV" parent="Theme.Leanback">
+        <item name="android:windowBackground">@color/app_background</item>
+        <item name="android:colorBackground">@color/app_background</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="colorPrimary">@color/brand_red</item>
+        <item name="colorPrimaryDark">@color/brand_red_dark</item>
+        <item name="colorAccent">@color/brand_red</item>
+
+        <!-- Leanback header customization -->
+        <item name="browseTitleColor">@color/white</item>
+        <item name="browseHeadersBackground">@color/header_background</item>
+        <item name="defaultBrandColor">@color/brand_red</item>
+        <item name="defaultSearchColor">@color/brand_red</item>
+        <item name="defaultSearchBrightColor">@color/brand_red_light</item>
+    </style>
+
+    <!-- Splash screen theme -->
+    <style name="Theme.StigstreamTV.Splash" parent="Theme.StigstreamTV">
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- Player theme — pure black, no title bar -->
+    <style name="Theme.StigstreamTV.Player" parent="Theme.StigstreamTV">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:keepScreenOn">true</item>
+    </style>
+
+</resources>
